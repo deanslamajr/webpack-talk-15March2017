@@ -1,3 +1,6 @@
+var createButton = require('./createButton');
+var addAlertToButton = require('./addAlertToButton');
+
 var messages = [ 'hello world', 'hello world again' ];
 
 var buttons = messages.map(createButton);

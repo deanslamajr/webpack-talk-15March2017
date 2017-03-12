@@ -6,3 +6,5 @@ function createButton(name) {
 
   return buttonElement
 }
+
+module.exports = createButton;
