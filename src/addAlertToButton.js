@@ -6,4 +6,4 @@ function addAlertToButton(buttonElement, message) {
   buttonElement.onclick = doAlert;
 }
 
-module.exports = addAlertToButton;
+export default addAlertToButton;
