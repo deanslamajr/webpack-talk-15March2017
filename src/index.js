@@ -1,11 +1,11 @@
-var createButton = require('./createButton');
-var addAlertToButton = require('./addAlertToButton');
+import createButton from './createButton';
+import addAlertToButton from './addAlertToButton';
 
-var messages = [ 'hello world', 'hello world again' ];
+const messages = [ 'hello world', 'hello world again' ];
 
-var buttons = messages.map(createButton);
+const buttons = messages.map(createButton);
 
-buttons.forEach(function(button, index) {
+buttons.forEach((button, index) => {
   // add behaviors to buttons
   addAlertToButton(button, messages[index]);
   // add buttons to DOM
